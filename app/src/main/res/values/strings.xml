@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Location History</string>
+    <string name="title_error">Error</string>
+    <string name="permissions_error">Sorry, this app will not function properly without Location access. Please accept permissions</string>
+    <string name="label_try_again">Try again</string>
+    <string name="label_message_location">Live location unavailable</string>
+    <string name="btn_label_accept_permission">Accept Permissions</string>
+    <string name="label_marker">My last location</string>
+    <string name="lat_lng_format">Lat.: %1$,.4f, Lng.: %2$,.4f</string>
+    <string name="time_format">Retrieved: %1$s</string>
+    <string name="accuracy_format">Accuracy: %1$,.4f</string>
+    <string name="provider_format">Provider: %1$s</string>
+    <string name="label_no_data">No data stored yet</string>
+</resources>

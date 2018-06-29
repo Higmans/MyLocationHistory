@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/tv_latlng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5dp"
+            tools:text="Lat.: 100.00, Lng.: 10.00"/>
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_latlng"
+            android:layout_marginBottom="5dp"
+            tools:text="Retrieved: 45 minutes ago"/>
+        <TextView
+            android:id="@+id/tv_accuracy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_time"
+            android:layout_marginBottom="5dp"
+            tools:text="Accuracy: 42"/>
+        <TextView
+            android:id="@+id/tv_provider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_accuracy"
+            tools:text="Provider: GPS"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
